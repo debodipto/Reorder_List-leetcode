@@ -1,4 +1,3 @@
-
 class Solution:
     def reorderList(self, head: Optional[ListNode]) -> None:
         fast = slow = head

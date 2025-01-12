@@ -7,10 +7,8 @@ public:
             slow = slow->next;
             fast = fast->next->next;
         }
-
         ListNode* cur = slow->next;
         slow->next = nullptr;
-
         ListNode* pre = nullptr;
         while (cur) {
             ListNode* t = cur->next;
